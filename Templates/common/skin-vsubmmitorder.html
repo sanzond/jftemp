@@ -114,7 +114,7 @@
                 <div class="step3_c">
                     <h3>支付方式</h3>
                     <ul id="ulPayType">
-                        <li>在线支付</li>
+                       <li>在线支付</li>
                         <li>货到付款</li>
                         <li>到店支付</li>
                         <li>线下付款</li>
@@ -700,6 +700,7 @@
 
             $(document).ready(function (e) {              
                 //点击添加发票
+
                 $(".addcompanytax").click(function (e) {
                     $(".addenttax").show();
                     $(".enttax").show();
@@ -2085,6 +2086,9 @@
 <script src="/Utility/icheck/icheck.min.js"></script>
 <script>
     $(function () {
+        //默认货到付款
+        $("#inputPaymentModeId").val(1);
+        $("#ulPayType li:visible").eq(1).addClass("a_time").siblings().removeClass("a_time");
         $(".sub_diy").click(function () {
             $(this).hide();
             $("#shippingStoreUl").fadeIn();
