@@ -147,10 +147,10 @@
                 <thead>
                     <tr>
                         <th style="width: 50px;"></th>
-                        <th width="120">姓名/昵称</th>
+                        <th width="50">姓名/昵称</th>
                         <th>登录账号</th>
-                        <th width="100">会员等级</th>
-                        <th width="80">门店</th>
+                        <th width="50">会员等级</th>
+                        <th width="200">门店</th>
                         <th width="80">消费金额</th>
                         <th width="80">预存款</th>
                         <th width="80">订单数</th>
