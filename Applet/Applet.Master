@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="screen-orientation" content="portrait">
     <meta name="x5-orientation" content="portrait">
-    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+    <script type="text/javascript" src="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
     <link rel="stylesheet" href="/templates/common/style/index.css?v=3.35" type="text/css" />
     <link rel="stylesheet" href="/templates/common/style/css.css?v=3.35" type="text/css" />
     <link rel="stylesheet" href="/templates/common/style/style.css?v=3.35" type="text/css" />
